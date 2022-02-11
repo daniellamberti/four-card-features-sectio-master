@@ -1,0 +1,230 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    width: 90%;
+    display: block;
+    margin: auto;
+    background-color: hsl(0, 12%, 97%);
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
+
+@media (min-width: 880px) {
+body {
+    width: 100%;
+    }
+}
+
+header {
+    display: block;
+    margin: auto;
+}
+
+main {
+    display: block;
+    margin: auto;
+}
+
+
+h1 {
+    font-size: 1.5rem;
+    color: hsl(229, 6%, 66%);
+    font-weight: 100;
+    text-align: center;
+    margin-top: 5.2rem;
+    margin-bottom: .3rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: 500;
+    color: rgb(43, 42, 42);
+    margin-bottom: 1.1rem;
+}
+
+h3 {
+    font-size: 1.2rem;
+    color: rgb(43, 42, 42);
+    margin-top: 1.6rem;
+    margin-left: 1.8rem;
+    margin-bottom: .38rem;
+}
+
+p {
+    width: 90%;
+    display: block;
+    margin: auto;
+    color: hsl(224, 10%, 78%);
+    text-align: center;
+    line-height: 1.6rem;
+    margin-bottom: 4.3rem;
+}
+
+@media (min-width: 880px) {
+.firstP {
+    width: 35%;
+    margin: auto;
+    line-height: 1.8rem;
+    margin-bottom: 5rem;
+    }
+}
+
+.cards {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    gap: 1.5rem;
+}
+
+.card1 {
+    width: 90%;
+    height: 40%;
+    background-color: white;
+    border-top: 4px solid hsl(180, 62%, 55%);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.card2 {
+    width: 90%;
+    height: 40%;
+    background-color: white;
+    border-top: 4px solid  hsl(0, 78%, 62%);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.card3 {
+    width: 90%;
+    height: 40%;
+    background-color: white;
+    border-top: 4px solid hsl(34, 97%, 64%);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.card4 {
+    width: 90%;
+    height: 40%;
+    background-color: white;
+    border-top: 4px solid  hsl(212, 86%, 64%);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    margin-bottom: 4rem;
+}
+
+.cardImage {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-right: 1.7rem;
+    margin-bottom: 1.6rem;
+}
+
+.cardImage img {
+    width: 19.5%;
+    height: 19.5%;
+}
+
+.cards p {
+    width: 86%;
+    font-size: .82rem;
+    text-align: left;
+    word-spacing: .02rem;
+    line-height: 1.65rem;
+    margin-left: 1.8rem;
+    margin-bottom: 1.3rem;
+}
+
+@media (min-width: 880px) {
+.cards p {
+    width: 80%;
+    }
+}
+
+.attribution {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 12px;
+    text-align: center; }
+
+@media (min-width: 880px) {
+.attribution {
+    margin: auto;
+    margin-top: 5rem;
+    }
+}
+
+.attribution p {
+    margin-bottom: .2rem !important;
+    font-size: 14px;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%); }
+
+@media (min-width: 880px) {
+.cards {
+    width: 80%;
+    display: grid;
+    grid-template-areas: 'card1  card2 card4'
+                        'card1  card3 card4';
+    row-gap: 2rem;
+    column-gap: 10px;
+    }
+}
+
+@media (min-width: 880px) {
+.card1 {
+    width: 330px;
+    height: 230px;
+    grid-area: card1;
+    justify-self: end;
+    box-shadow: 0px 20px hsl(229, 41%, 95%);
+    }
+}
+
+@media (min-width: 880px) {
+.card2 {
+    width: 330px;
+    height: 230px;
+    grid-area: card2;
+    box-shadow: 0px 20px hsl(229, 41%, 95%);
+    }
+}
+
+@media (min-width: 880px) {
+.card4 {
+    width: 330px;
+    height: 230px;
+    grid-area: card4;
+    justify-self: start;
+    margin-top: 2.8rem;
+    box-shadow: 0px 20px hsl(229, 41%, 95%);
+    }
+}
+
+@media (min-width: 880px) {
+.card3 {
+    width: 330px;
+    height: 230px;
+    grid-area: card3;
+    box-shadow: 0px 20px hsl(229, 41%, 95%);
+    }
+}
